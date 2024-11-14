@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FORMS SUBMIT</title>
+  </head>
+  <body style="background-color: lightgreen">
+    <form action="http://www.example.com/login" method="post">
+      <fieldset style="background-color: aqua">
+        <legend style="background-color: aqua">PERSONAL INFORMATION</legend>
+        <p>
+          <strong>FIRST NAME:</strong>
+          <input
+            type="text"
+            name="firstname"
+            size="20"
+            maxlength="30"
+            required
+          />
+          <br />
+          <br />
+          <strong>LAST NAME:</strong>
+          <input
+            type="text"
+            name="lastname"
+            size="20"
+            maxlength="30"
+            required
+          />
+        </p>
+        <p>
+          <strong>GENDER:</strong>
+          <label
+            ><input
+              type="radio"
+              value="MALE"
+              name="GENDER"
+              required
+            />MALE</label
+          >
+          <label
+            ><input
+              type="radio"
+              value="FEMALE"
+              name="GENDER"
+              required
+            />FEMALE</label
+          >
+        </p>
+        <p>
+          <strong>WHERE ARE YOU LIVE:</strong>
+          <select name="cities" required>
+            <option value="Karachi">Karachi</option>
+            <option value="Lahore">Lahore</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="Rawalpindi">Rawalpindi</option>
+            <option value="Multan">Multan</option>
+            <option value="Quetta">Quetta</option>
+            <option value="Hyderabad">Hyderabad</option>
+          </select>
+        </p>
+        <p>
+          <strong>DATE OF BIRTH:</strong>
+          <input type="date" name="date of birth" required />
+        </p>
+      </fieldset>
+      <fieldset style="background-color: aquamarine">
+        <legend style="background-color: aquamarine">
+          CONTACT INFORMATION
+        </legend>
+        <p>
+          <strong>EMAIL:</strong>
+          <input type="email" size="20" maxlength="30" name="email" required />
+        </p>
+        <p>
+          <strong>CONTACT NUMBER:</strong>
+          <input
+            type="text"
+            size="20"
+            maxlength="30"
+            name="phone num:"
+            required
+          />
+        </p>
+        <p>
+          <strong>PLEASE INSERT YOUR PICTURE:</strong>
+          <input type="file" name="pic" required />
+        </p>
+        <p>
+          <strong>DO YOU HAVE A COMPUTER/LAPTOP:</strong>
+          <label
+            ><input
+              type="radio"
+              value="yes"
+              name="computer/laptop"
+              checked
+              required
+            />YES</label
+          >
+          <label
+            ><input
+              type="radio"
+              value="no"
+              name="computer/laptop"
+              required
+            />NO</label
+          >
+        </p>
+        <p>
+          <strong>DO YOU HAVE A INTERNET ACESS:</strong>
+          <label
+            ><input
+              type="radio"
+              value="yes"
+              name="internet"
+              checked
+              required
+            />YES</label
+          >
+          <label
+            ><input type="radio" value="no" name="internet" required />NO</label
+          >
+        </p>
+        <p>
+          <input type="submit" />
+        </p>
+      </fieldset>
+    </form>
+    <p>
+      <b>NOTE:</b>if you does'nt have a computer or laptop <b>DONT WORRY!</b> we
+      are giving you free if you could pass the exam.
+      <br />
+      The exam are taken by only those student whose does not have laptop or
+      computer.
+      <br />
+      The exam date are given to you through your email.
+      <br />
+      If you does'nt have a internet acess then you should take hurry to acess a
+      internet by your near internet provider.
+    </p>
+  </body>
+</html>
